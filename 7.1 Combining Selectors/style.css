@@ -1,0 +1,49 @@
+/* Write your code here: */
+
+/*group selector 
+    selector, selector*/
+h1,
+h2 {
+    color: blueviolet;
+}
+
+/*child selector
+    selector > child selector*/
+
+.box>p {
+    color: firebrick;
+}
+
+/*Descendant = Apply to a descendant of left side  
+    selector selector */
+
+/* .box li {
+    color: green;
+} */
+
+.list li {
+    color: blue;
+}
+
+/* .box .list li {
+    color: blue;
+} */
+
+/*Chaining = Apply where all selectors are true
+    selectorselector
+    h1#id.class */
+
+/* div.box ul.list li.done{
+    color: seagreen;
+} */
+
+li.done {
+    color: seagreen;
+}
+
+/*Combining Combiners
+    selector selectorselector*/
+
+ul p.done {
+    font-size: 0.5rem;
+}

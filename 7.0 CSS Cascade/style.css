@@ -1,0 +1,44 @@
+/* Don't change the existing CSS. */
+
+#outer-box {
+  border: 10px solid purple;
+}
+
+/* .inner-box {
+  background-color: red;
+} */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+.inner-box {
+ background-color: red;
+}
+
+.white-text {
+  color: white;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* .a-class {
+  color: blue !important;
+}
+
+#an-id {
+  color: green;
+}
+
+.a1-class {
+  color: green;
+}
+
+.another-class {
+  color: blue;
+} */

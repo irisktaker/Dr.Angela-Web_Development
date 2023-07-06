@@ -1,0 +1,23 @@
+* {
+    color: black;
+}
+
+h2 {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+#text-id {
+    color: yellow;
+}
+
+p[draggable] {
+    color: coral;
+}
+
+p[draggable="false"] {
+    color: darkgreen;
+}
